@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css">  
     <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script> -->
 
-    <script src="../js/bootstrap.min.js"></script>
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-warning">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <div class="navbar-header">
               <a class="navbar-brand" href="../index.php">KenaBecha.com</a>
@@ -120,7 +121,7 @@
              <div class="col-md-3 col-sm-3"></div>
              <div class="col-md-6 col-sm-6">
                  
-                 <h2>Please Login to visit site.</h2>
+                 <h2>Please Login to visit Site.</h2>
                 <form action="../model/login.php" method="post">
                   <div class="form-group">
                     <label for="username">Email:</label>

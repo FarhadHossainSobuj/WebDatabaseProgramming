@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <title>Home</title>
     
-    <link rel="stylesheet" href="../res/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
 
+    <script src="../js/jquery.js"></script>
 
-    <script src="../res/jquery.min.js"></script>
-
-    <script src="../res/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -42,22 +39,6 @@
          <div class="product-thumb">
              <h2>Product thumbs will go here...</h2>
              <?php include("productthumbnail.php"); 
-//             if(mysqli_num_rows($res) > 0){
-//                echo '<div class="row">
-//                while($row = mysqli_fetch_assoc($res)){
-//                     echo '<div class="col-md-3">';
-//                     echo '<div class="thumbnail">';
-//                     echo '<a href="../".$row["filepath"]>';
-//                     echo '<img src="../".$row["filepath"] alt="Lights" style="width:100%">';
-//                     echo '<div class="caption">
-//                                  <p>Lorem ipsum...</p>
-//                                </div>
-//                              </a>
-//                            </div>
-//                        </div>
-//                     </div>';
-//                }
-//            }
              ?>
              
              

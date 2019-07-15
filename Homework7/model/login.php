@@ -9,7 +9,7 @@ include('config.php');
     $role = $_POST['role'];
 
 
-    $sql = "select * from users where email='$email' AND password='$password' AND role='$role'";
+    $sql = "select * from users where email='$email' AND password='$password'";
     $res = mysqli_query($myconn, $sql);
     $count = mysqli_num_rows($res);
     if($count==1){

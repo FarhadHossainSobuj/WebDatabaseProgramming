@@ -59,7 +59,7 @@
                         <label for="pwd">Password:</label>
                         <input type="password" class="form-control" name="password" required>
                       </div>
-                      <button type="submit" class="btn btn-default">Submit</button>
+                      <input type="submit" class="btn btn-default" value="Signup"/>
                     </form>
                   </div>
                   <div class="modal-footer">
@@ -101,7 +101,7 @@
                             <option value="user">User</option>
                         </select>
                       </div>
-                      <button type="submit" class="btn btn-default">Submit</button>
+                      <input type="submit" class="btn btn-default" value="Login"/>
                     </form>
                   </div>
                   <div class="modal-footer">

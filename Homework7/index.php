@@ -9,16 +9,10 @@
 <<<<<<< HEAD
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
-=======
->>>>>>> 8414757a5187dcc5b08633f7867beeba84f7f0b6
 
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-=======
-    
->>>>>>> 8414757a5187dcc5b08633f7867beeba84f7f0b6
     
     <link rel="stylesheet" href="style.css">
 </head>

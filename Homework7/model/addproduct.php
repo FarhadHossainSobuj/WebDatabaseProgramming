@@ -15,7 +15,7 @@ include('config.php');
         VALUES('$productName', '$price', '$details', '$filetemp', '$filename', '$filetype', '$filepath')";
     $res = mysqli_query($myconn, $adddata);
     if($res==true){
-        move_uploaded_file($filetemp, "../".$filepath);
+        move_uploaded_file($filetemp, base_url()."../../".$filepath);
         echo "<script>window.alert('Data updated');</script>";
         header("location:../view/productlist.php");
     } else {
